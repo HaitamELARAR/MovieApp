@@ -80,7 +80,7 @@ const MovieDetails = () => {
 
           <Link
             to="/"
-            className="inline-block mt-6 bg-blue-600 text-white px-5 py-2 rounded-md hover:bg-blue-700 transition"
+            className="inline-block mt-6   px-5 py-2 rounded-md  transition  bg-gradient-to-r from-blue-600 to-purple-600 text-white shadow-lg"
           >
             ⬅ Retour à l’accueil
           </Link>

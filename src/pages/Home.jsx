@@ -96,8 +96,7 @@ const Home = () => {
         {/* Bouton actualiser */}
         <button
           onClick={refresh}
-          className="mt-4 bg-gray-100 text-gray-700 px-4 py-2 rounded-md hover:bg-gray-200 transition-colors text-sm"
-        >
+          className="my-2.5 px-8 py-3 rounded-lg text-2xl font-medium transition-all duration-300 transform hover:scale-105 bg-gradient-to-r from-blue-600 to-purple-600 text-white shadow-lg ">
            Actualiser
         </button>
       </div>
@@ -117,12 +116,13 @@ const Home = () => {
           <button
             onClick={loadMore}
             disabled={loading}
-            className="bg-blue-600 text-white px-8 py-3 rounded-md hover:bg-blue-700 disabled:bg-gray-400 disabled:cursor-not-allowed transition-colors"
+            className="my-2.5 px-8 py-3 rounded-lg text-2xl font-medium transition-all duration-300 transform hover:scale-105 bg-gradient-to-r from-blue-600 to-purple-600 text-white shadow-lg "
           >
             {loading ? (
               <>
-                <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-white inline-block mr-2"></div>
-                Chargement...
+                <div className="text-2xl lg:text-3xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">     
+                             Chargement...
+</div>
               </>
             ) : (
               'Charger plus de films'

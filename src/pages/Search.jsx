@@ -47,7 +47,7 @@ const Search = () => {
             type="submit"
             disabled={!query.trim()}
             className={`px-6 py-2 rounded-lg text-white font-semibold transition-all 
-              ${query.trim() ? 'bg-blue-600 hover:bg-blue-700' : 'bg-blue-200 cursor-not-allowed'}`}
+              ${query.trim() ? 'bg-gradient-to-r from-blue-600 to-purple-600 text-white shadow-lg' : 'bg-blue-200 cursor-not-allowed'}`}
           >
             Rechercher
           </button>

@@ -76,7 +76,7 @@ const MovieForm = ({ onSubmit }) => {
         <div className="text-center">
           <button
             type="submit"
-            className="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition-all shadow-md"
+            className="my-2.5 px-8 py-3 rounded-lg text-2xl font-medium transition-all duration-300 transform hover:scale-105 bg-gradient-to-r from-blue-600 to-purple-600 text-white shadow-lg "
           >
             ➕ Ajouter le film
           </button>
